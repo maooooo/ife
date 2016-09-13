@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ife 2016-task02</title>
+	<link rel="stylesheet" href="task02.css" class="css"  />
+</head>
+<body>
+	<header>
+		<div id="headerbg"></div>
+		<ul>
+			<li>你是谁？</li>
+			<li>你来自何方？</li>
+			<li>你来做什么？</li>
+		</ul>
+	</header>
+
+	<article class="article01">
+    <!--hx elements -->
+    <hgroup>
+	    <h1 id="h1anchor">I am h1</h1>
+	    <h2>I am h2</h2>
+	    <h3>I am h3</h3>
+	    <h4>I am h4</h4>
+	    <h5>I am h5</h5>
+	    <h6>I am h6</h6>
+	 </hgroup>
+	    <!--p-->
+	    <p>I am paragraph,傷ついた羽で飛ぶ鳥 飛び立てぬ私は一人
+鸟儿用受伤的羽翼飞翔 <strong>只有我一人无法起飞</strong>
+伝えたい何かを書いては破り捨てため息を零す
+因为将写着想要传达话语的纸 <em>撕碎丢弃而发出叹息</em>
+いつか誰もあなたを忘れ、勝手なあらすじで綴じる
+何时世界上不再有人记得你 随便地给你写上概述</p>
+	<!-- image-->
+	    <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" title="baidu" />
+	</article>
+	<hr>
+	<!--list-->
+	<article>
+	<ul>
+		<li>unordered1</li>
+		<li>unordered2</li>
+		<li>unordered3</li>
+		<li>unordered4</li>
+	</ul>
+	<ol>
+		<li>sheep</li>
+		<li>wolf</li>
+		<li>human</li>
+		<li>tiger</li>
+	</ol>
+	<!--table-->
+	<table summary="class is great" style="text-align:center" rules="all">
+		<caption>grade list</caption>
+		<tr>
+			<th>class</th>
+			<th>number</th>
+			<th>grade</th>
+		</tr>
+		<tr>
+			<td>class1</td>
+			<td>32</td>
+			<td>85</td>
+		</tr>
+		<tr>
+			<td>class2</td>
+			<td>35</td>
+			<td>84</td>
+		</tr>
+		<tr>
+			<td>total:</td>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	</article>
+	<hr>
+	<article>
+	<!--quotation-->
+	<blockquote>
+		&ltblockquote&gt 与 &lt/blockquote&gt之间的所有文本都会从常规文本中分离出来，<q>这是短引用</q>经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。
+	</blockquote>
+	<!-- code -->
+	<code>$(document).ready(function(){
+  			$("p").click(function(){
+  				$(this).hide();
+ 		 	});
+		});
+	</code>
+	<pre>
+	&lt;script type="text/javascript"&gt
+		$(document).ready(function(){
+  			$("p").click(function(){
+  				$(this).hide();
+ 		 	});
+		});
+	&lt;/script&gt;
+	</pre>
+	<!-- a -->
+	<a href="http://www.baidu.com" target="_blank">link to baidu.com</a><br>
+	<a href="mailto:123@163.com?subject=testtttt&body=what do you mean?">send a mail to me!</a><br>
+	<a href="#h1anchor">go to top</a>
+	<!--address-->
+	<address>南京市雨花台区解放路130号（应该是斜体）</address>
+	</article>
+	<hr>
+	<article class="article04">
+	<!-- form -->
+	<form method="post" action="save.php">
+		<label>username:</label>
+		<input type="text" name="username">
+		<input type="submit" name="nani" value="提交">
+		<br>
+		<label>password:</label>
+		<input type="password" name="pass">
+		<input type="reset" name="reset" value="重置">
+		<br>
+		<label for="ta1">说明：</label>
+		<br>
+		<textarea cols="60" rows="10" id="ta1">这文本框这么大，不多写点吗？</textarea>
+		<br><br>
+
+	<!-- select -->
+		<label>你最喜欢看什么：</label>
+		<select>
+			<option value="anime">anime</option>
+			<option value="drama" selected="selected">drama</option>
+			<option value="movie">movie</option>
+			<option value="sport">sport</option>
+		</select>
+		<br>
+		<label>你的性别是？</label>
+		<label for="male">男</label>
+		<input type="radio" name="gender" value="男" id="male" checked="checked">
+		<label for="female">女</label>
+		<input type="radio" name="gender" value="女" id="female">
+		<br>
+		你的属性是：
+		<label for="pro1">tianese</label>
+		<input type="checkbox" name="property1" value="1" id="pro1">
+		<label for="pro">cheater</label>
+		<input type="checkbox" name="property2" value="2" id="pro2">
+		<label for="pro3">richer</label>
+		<input type="checkbox" name="property3" value="3" id="pro3">
+		<br>
+		<input type="button" name="bt" value="提交" onclick="javascript:alert('已提交')" id="submitbt">
+	</form>
+	</article>
+	<footer>
+		<p>copyright©Maooooo</p>
+	</footer>
+<!-- over-->
+</body>
+</html>

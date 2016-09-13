@@ -1,0 +1,23 @@
+body,ul,li,main,table,th,td {margin: 0px;padding: 0px;}
+ul li{list-style: none;}
+body{background-color:#ccc; }
+h1{font-size: 2em;}
+p{text-indent: 30px;}
+/*代码引用样式*/
+code,pre{padding: 10px;width: 80%;background-color: #ccc;margin-bottom: 10px;border-radius: 5px;}
+/*header样式*/
+header{height: 50px;width: 100%;background-color: #eee;line-height: 50px;}
+header li{float: right;height: 50px;width: 150px;list-style: none;font-family: Microsoft YaHei,sans-serif;}
+#headerbg{float: left;height: 50px; width:150px; background:url(https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png) no-repeat left;margin-left: 40px; }
+/*文章样式*/
+article{margin: 0 0 20px 50px;box-shadow: 2px 3px #aaa;width:90%;border: 1px solid #bbb;padding: 20px;background-color:#fff;border-radius: 5px; }
+article p{width: 70%;font-family: SourceHanSans,sans-serif;}
+article img{border: 5px solid green;border-radius: 15px;ma}
+.article04{text-align: center;line-height: 30px;font-family: Microsoft YaHei,sans-serif;}
+/*表格样式*/
+table{border: 1px solid black;width: 100%;}
+th{background-color: #555;color: #fff;}
+/*提交按钮样式*/
+#submitbt{height: 40px;width:400px;background-color: #550055;border-radius: 5px;border: none;color: #fff;font-size: 25px;}
+/*footer样式*/
+footer{text-align: center;font-family: Arial;}
